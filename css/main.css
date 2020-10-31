@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-fluid {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.nenmenu {
+	background-color: #FFD02F;
+}
+.sizelogo {
+	width: 208px;
+	height: 49px;
+	margin: 15px;
+}
+.tieude01 {
+	text-align: center;
+	color: #FFD02F;
+	font-style: italic;
+}
+.lenoidung {
+	margin-top: 30px;
+}
+.diadanh {
+	margin-bottom: 20px;
+}
+.diadanh img {
+	width: 100%;
+	height: 250px;
+}
+.content01 {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.caption {
+	width: 100%;
+	height: 160px;
+	background-color: rgba(54,53,53,0.4);
+	-webkit-transition: all 0.6s linear;
+	-moz-transition: all 0.6s linear;
+	-ms-transition: all 0.6s linear;
+	-o-transition: all 0.6s linear;
+	transition: all 0.6s linear;
+	position: absolute;
+	left: 0px;
+	bottom: -160px;
+}
+.caption h3 {
+	color: rgba(255,255,255,1.00);
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.caption p {
+	color: #FFFFFF;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.content01:hover .caption {
+	bottom: 0px;
+}
+.nenykien {
+	background-color: #E9E9E9;
+	padding: 10px;
+}
+.nenykien h4 {
+	font-size: 18px;
+	text-align: center;
+}
+.ngaydi {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.duongke {
+	border-bottom: dashed 1px #9B9A9A;
+}
+.xemthem {
+	padding: 10px 15px;
+	color: #FFFFFF;
+	background-color: #ED1C3F;
+	position: absolute;
+	bottom: -15px;
+	left: 35%;
+}
+
+@media only screen and (max-width: 1204px) {
+.xemthem {
+	left: 25%;
+}
+}
+
+@media only screen and (max-width: 414px) {
+.xemthem {
+	left: 35%;
+}
+}
+.leykien {
+	margin-bottom: 40px;
+}
+#footer {
+	height: 300px;
+	background-color: #FFD02F;
+	color: #FFFFFF;
+	padding: 20px;
+}
+#footer .lienhe {
+	float: right;
+	width: 45%;
+}
+#footer .lienhe li {
+	line-height: 2;
+}
+#footer .map {
+	float: left;
+	width: 45%;
+	height: 100%;
+}
